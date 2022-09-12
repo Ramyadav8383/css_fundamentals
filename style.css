@@ -1,0 +1,124 @@
+/* h3 {
+  color: navy;
+  font-size: 4rem;
+} */
+/* css rules */
+/* selectors */
+/* declaration block */
+/* property */
+/* value */
+
+/* element selectors */
+/* h2 {
+  color: orange;
+  font-size: 2rem;
+}
+h3 {
+  color: green;
+  font-size: 4rem;
+}
+p {
+  color: #333;
+  font-size: 1rem;
+  letter-spacing: 0.5rem;
+} */
+
+/* grouping selectors */
+/* h2,
+h3,
+p {
+  color: blueviolet;
+} */
+
+/* id selectors */
+/* #title {
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
+#footer-heading {
+  background-color: #333;
+  color: green;
+  text-align: center;
+} */
+
+/* class selectors */
+/* .green {
+  color: green;
+}
+.red {
+  color: red;
+  background: #ccc;
+} */
+
+/* both id and class */
+/* #title {
+  background: #333;
+}
+.green {
+  color: green;
+}
+.uppercase {
+  text-transform: uppercase;
+} */
+
+/* div and span is used for grouping */
+/* div - used to group multiple elemnts */
+/* span - used to group inline content */
+/* .red {
+  color: red;
+  background: black;
+}
+.green {
+  color: green;
+  background: yellow;
+}
+span {
+  text-transform: uppercase;
+}
+.text {
+  background: #fff;
+  color: blue;
+} */
+
+/* inheritence in css */
+/* children inherit styles from the parents, unless have their own styles */
+
+/* body {
+  color: red;
+}
+.special {
+  color: green;
+}
+h1 {
+  color: yellow;
+}
+.para {
+  color: maroon;
+} */
+
+/*last rule and specificity and universal selectors */
+/* p {
+  color: red;
+} */
+/* more code here */
+/* p {
+  color: blue;
+} */
+
+/* universal selector */
+/* universal selectors have less specificity */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* combine selectors and decendent selector */
+/* combine selector */
+/* .container p {
+  color: green;
+}
+.container #text {
+  color: blue;
+} */
