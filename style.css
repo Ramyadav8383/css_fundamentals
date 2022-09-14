@@ -122,3 +122,53 @@ h1 {
 .container #text {
   color: blue;
 } */
+
+/* color properties  */
+/* background-colors  */
+/* .heading-1 {
+  color: green;
+  background-color: blueviolet;
+}
+.heading-2 {
+  color: aqua;
+  background: grey;
+} */
+
+/* rgb colors */
+/* .heading-1 {
+  color: rgb(255 0 0);
+  background: rgb(0 0 0);
+}
+.heading-2 {
+  color: rgb(0 255 0);
+  background: rgb(255 255 255);
+}
+.heading-3 {
+  color: rgb(0 0 255);
+  background: rgb(180 180 210);
+}
+body {
+  background: rgb(160 200 100);
+} */
+
+/* rgba */
+/* .heading-1 {
+  color: rgba(255, 0, 0, 1);
+}
+.heading-2 {
+  color: rgba(255, 0, 0, 0.75);
+}
+.heading-3 {
+  color: rgba(0, 255, 0, 0.86);
+  background: rgba(0, 0, 255, 0.6);
+}
+.heading-4 {
+  color: rgba(0, 255, 0, 1);
+  background: rgba(0, 0, 255, 1);
+} */
+/* coolors.co site for different different colors */
+/* hex color */
+/* .heading-5 {
+  color: #333;
+  background: #ccc;
+} */
