@@ -172,3 +172,73 @@ body {
   color: #333;
   background: #ccc;
 } */
+
+/* 14_css_units */
+/* pixels - absolute values , one dot on the screen
+font size- size of font
+width- width of an element
+height- height of an element */
+
+/* h1 {
+  font-size: 60px;
+  background: blue;
+  color: #fff;
+  width: 200px;
+  height: 400px;
+} */
+
+/* percent unit are relative units depends on the parent */
+/* .outer {
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  background: red;
+} */
+
+/* em unit
+em- Relative , depends on parent
+1em - 16px default browser style
+1em = base value (16px) * number (1) = 16px
+2em = base value (16px) * number (2) = 32px
+2em = base value (10px) * number (2) = 20px */
+/* div {
+  font-size: 10px;
+}
+.absolute {
+  font-size: 32px;
+}
+.relative {
+  font-size: 2rem;
+} */
+
+/* rem units 
+rem - depends on root
+1rem = base value (16px) * number 1 */
+/* html {
+  font-size: 10px;
+}
+.first {
+  font-size: 1rem;
+}
+.second {
+  font-size: 2rem;
+} */
+
+/* 15_vh nad vw */
+/* viewport units
+vh - height -percent of the screen
+vw - width - percent of the screen */
+/* .hero {
+  background: burlywood;
+  width: 100vw;
+  height: 100vh;
+}
+.about {
+  background: ccc;
+  height: 50vh;
+  width: 50vw;
+} */
