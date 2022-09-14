@@ -242,3 +242,50 @@ vw - width - percent of the screen */
   height: 50vh;
   width: 50vw;
 } */
+
+/* 17_calc_function 
+PERFORM MATH OPERATIONS + - * /
+MIX AND MATCH VALUES*/
+/* * {
+  margin: 0;
+}
+.navbar {
+  background: blue;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  height: 6rem;
+}
+.banner {
+  background: red;
+  height: calc(100vh - 6rem);
+} */
+
+/* 18_min_max */
+/* height: auto; min-height; max-height; overflow */
+
+* {
+  margin: 0;
+}
+.navbar {
+  background: blue;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  height: 6rem;
+}
+.banner {
+  background: red;
+  min-height: calc(100vh - 6rem);
+  /* max-height: 90vh; */
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+}
+.about {
+  background: green;
+  width: 15rem;
+
+  min-height: 20rem;
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+}
