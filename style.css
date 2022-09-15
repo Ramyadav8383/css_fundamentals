@@ -264,7 +264,7 @@ MIX AND MATCH VALUES*/
 /* 18_min_max */
 /* height: auto; min-height; max-height; overflow */
 
-* {
+/* * {
   margin: 0;
 }
 .navbar {
@@ -276,16 +276,115 @@ MIX AND MATCH VALUES*/
 }
 .banner {
   background: red;
-  min-height: calc(100vh - 6rem);
-  /* max-height: 90vh; */
-  /* overflow: hidden; */
-  /* overflow: scroll; */
-}
+  min-height: calc(100vh - 6rem); */
+/* max-height: 90vh; */
+/* overflow: hidden; */
+/* overflow: scroll; */
+/* }
 .about {
   background: green;
   width: 15rem;
 
-  min-height: 20rem;
-  /* overflow: hidden; */
-  /* overflow: scroll; */
+  min-height: 20rem; */
+/* overflow: hidden; */
+/* overflow: scroll; */
+/* } */
+
+/* 19_typography
+font-size - size of  the fonts
+font-family - describes the font of the elemnts */
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+} */
+
+/* 20_google_fonts */
+/* body {
+  font-family: "Nabla", cursive;
+  line-height: 1.6rem;
+}
+h1 {
+  font-size: 3rem;
+  color: green;
+} */
+
+/* 21_system_fonts
+a fonts that's already installed on the device of the user.
+
+-fast load times
+-less headaches
+-project will look different system to system
+
+"-apple-system , blinkmacsystemfont - sytem of font on apple devices
+segoe ui - used on windows system
+roboto - syetm font for android devices*/
+/* body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* 22_font-weight_font-style
+ font-weight - how thick or thin characters in text should be
+ font-style set font  style for a text*/
+/* .main-heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+} */
+/* .para-one {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-style: oblique;
+  font-style: normal;
+}
+.sub-heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.para-two {
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* 23_text-align , text-indent */
+/* body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-align: right;
+  text-align: left;
+}
+.main-heading {
+  text-align: center;
+}
+.para-two {
+  text-align: left;
+  text-indent: 2rem;
+} */
+
+/* text more properties
+line-height - if numbers * by font-size
+letter-spacing
+word-spacing
+text-transform
+text-decoration */
+body {
+  line-height: 1.7;
+}
+.link {
+  text-decoration: none;
+}
+h1 {
+  text-transform: uppercase;
+  text-decoration: line-through;
+  text-decoration: overline;
+}
+p {
+  /* letter-spacing: 0.2rem; */
+  word-spacing: 1rem;
+  text-transform: capitalize;
 }
