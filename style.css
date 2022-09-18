@@ -453,6 +453,119 @@ a {
 } */
 
 /* 27_border_hack */
-* {
+/* * {
   border: 2px solid red;
+} */
+
+/* 28_css_display */
+/* Elements have it set by default
+Block : Always start a new line and spans full width
+Inline : Does not start a new line and span only content */
+/* .block {
+  background: green;
+  color: #fff;
+  width: 300px;
+  text-align: center;
+  margin: 2rem auto; */
+/* display: block;  by default display is block */
+/* display: inline; */
+/* } */
+/* .inline-element {
+  text-align: center;
+}
+.inline {
+  background: purple;
+  color: #fff; */
+/* display: inline;  by default display is inline*/
+/* display: block;
+  margin-bottom: 1rem; */
+/* } */
+
+/* 29_mobile_navbar
+block: browser respects width/height, top/bottom margin 
+Inline: browser does not respect width/height, top/bottom margin
+navbar
+list-type-type:property
+descendent selectors */
+/* span {
+  background: green;
+  color: #fff;
+  width: 300px;
+  height: 200px;
+  margin-top: 1rem;
+  margin-bottom: 10rem;
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.ul li {
+  list-style: none;
+}
+ul li a {
+  color: orange;
+  text-decoration: none;
+  letter-spacing: 2px;
+  background: #222;
+  display: block;
+  padding: 1rem;
+  margin: 10px;
+} */
+
+/* 30_box_sizing 
+box-sizing: border-box
+default content box */
+
+/* .box-1,
+.box-2,
+.box-3 {
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.box-1 {
+  background: blue;
+  padding: 20px;
+  box-sizing: content-box; default
+  box-sizing: border-box;
+}
+.box-2 {
+  background: green;
+}
+.box-3 {
+  background: purple;
+  padding: 20px;
+} */
+
+/* 31_css_inline-block 
+display: inline-block
+does not start a new line
+browser respects margin width height*/
+/* a {
+  font-size: 1.5rem;
+  background: red;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 1rem;
+  margin: 40px 10px;
+} */
+
+/* 32_css_visibility and opacity 
+display: none - remove from the flow , hide the element collapse the space
+opacity:0 , visibilty:hidden - hides element preserves the space
+*/
+
+div {
+  background: #777;
+  margin: 1rem;
+  color: #fff;
+  font-size: 1.3rem;
 }
