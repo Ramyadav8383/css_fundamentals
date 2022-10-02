@@ -1,0 +1,152 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 300px;
+  color: white;
+  min-height: 100vh;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.big-img { */
+/* shorthand */
+/* background: url(./img/pexels-ezgi-baytar-11470549.jpg) no-repeat center
+    center/cover; */
+/* background-repeat */
+/* background-repeat: no-repeat; */
+/* background-repeat: repeat-x; */
+/* background-repeat: repeat-y; */
+/* background-repeat: space; */
+/* background-repeat: round; */
+/* background-attachment: fixed;
+}
+.small-img {
+  background: url(./pexels-fabian-wiktor-994605.jpg) no-repeat center
+    center/cover; */
+/* background-repeat: no-repeat; */
+/* background-size */
+/* background-size: cover ;  its cover all the div*/
+/* background-size: contain; it contain the ratio of image*/
+/* background-attachment: fixed; */
+/* linear gradients */
+/* } */
+/* .folder-img {
+  background: url(./img/pexels-valerie-voila-13727429.jpg) no-repeat center
+    center/cover; */
+/* background postions */
+/* background-position: bottom; */
+/* background-position: left; */
+/* background-position: right; */
+/* background-position: top; */
+/* background-position: 20% 50%; */
+
+/* background attachment */
+/* background-attachment: fixed;
+} */
+
+/* 02_ linear gradient */
+/* div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+.One { */
+/* background: linear-gradient(red, green); */
+/* background: linear-gradient(to bottom red, green); */
+/* background: linear-gradient(to top, red, green); */
+/* background: linear-gradient(to left, red, green); */
+/* background: linear-gradient(to right, red, green); */
+/* } */
+/* .Two {
+  background: linear-gradient(to left, red, green, blue, orange);
+  background: linear-gradient(to right, red, green, blue, orange);
+}
+.Three {
+  background: linear-gradient(160deg, red, blue);
+}
+.Four {
+  background: linear-gradient(to top right, red, blue);
+}
+.Five {
+  background: linear-gradient(blue 20%, yellow 70%);
+}
+.Six {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
+} */
+
+/* background image overlay 03 */
+/* for css gradient generator  colorzilla.com */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid gray;
+}
+/* without overlay */
+.image-1 {
+  background: url(./pexels-fabian-wiktor-994605.jpg) no-repeat center
+    center/cover;
+  background-attachment: fixed;
+}
+/* with overlay */
+.image-2 {
+  background: linear-gradient(
+      /* to left, */ 250deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(154, 230, 120, 0.5)
+    ),
+    url(./pexels-fabian-wiktor-994605.jpg) no-repeat center center/cover;
+  background-attachment: fixed;
+}
+.image-3 {
+  background: url(./img/pexels-ezgi-baytar-11470549.jpg) no-repeat center
+    center/cover fixed;
+  /* background-attachment: fixed; */
+}
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,dd5223+26,ba831d+26,2b88d9+50,dd5223+63,7db9e8+100&1+0,0.68+26,1+66,1+100 */
+  background: -moz-linear-gradient(
+    top,
+    rgba(59, 103, 158, 1) 0%,
+    rgba(186, 131, 29, 0.68) 26%,
+    rgba(43, 136, 217, 0.87) 50%,
+    rgba(221, 82, 35, 0.98) 63%,
+    rgba(213, 90, 51, 1) 66%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(59, 103, 158, 1) 0%,
+    rgba(186, 131, 29, 0.68) 26%,
+    rgba(43, 136, 217, 0.87) 50%,
+    rgba(221, 82, 35, 0.98) 63%,
+    rgba(213, 90, 51, 1) 66%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(59, 103, 158, 1) 0%,
+    rgba(186, 131, 29, 0.68) 26%,
+    rgba(43, 136, 217, 0.87) 50%,
+    rgba(221, 82, 35, 0.98) 63%,
+    rgba(213, 90, 51, 1) 66%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}

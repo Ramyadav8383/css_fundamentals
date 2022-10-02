@@ -563,7 +563,7 @@ display: none - remove from the flow , hide the element collapse the space
 opacity:0 , visibilty:hidden - hides element preserves the space
 */
 
-div {
+/* div {
   background: #777;
   margin: 1rem;
   color: #fff;
@@ -583,4 +583,14 @@ div {
 }
 .visibility {
   visibility: hidden;
+} */
+* {
+  margin: 0;
+}
+#showcase {
+  background: url(./image/pexels-roberto-nickson-2531237.jpg),
+    url(./image/pexels-fabian-wiktor-994605.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
