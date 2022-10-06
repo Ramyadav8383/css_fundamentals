@@ -711,7 +711,7 @@ top,bottom , left, right */
 /* position absolute - relative to the parent with postion:relative.
 position:fixed - relative to the viewport(screen), stays as we are scrolling
 will use other content to fill out the space */
-div {
+/* div {
   border: 3px solid red;
   background: yellow;
   margin-top: 3rem;
@@ -719,19 +719,83 @@ div {
 }
 .one {
   background: blue;
-  color: #fff;
-  /* position: absolute; */
-  /* left: 20px; */
-}
-.two {
+  color: #fff; */
+/* position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2; */
+/* position: absolute; */
+/* left: 20px; */
+/* } */
+/* .two {
   background: green;
-  color: #fff;
-  /* position: absolute; */
-}
-.special {
+  color: #fff; */
+/* position: absolute; */
+/* } */
+/* .special {
   background: pink;
   font-size: 1.2rem;
   color: #333;
   position: absolute;
-  bottom: 110px;
+  top: 0;
+  left: 0;
+}
+.container {
+  min-height: 100vh;
+} */
+/* 38_position fixed */
+/* .navbar {
+  background: #333;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+/* position sticky */
+/* position:sticky - toggles between relatives and fixed once the position is met in the viewport - then it sticks
+one of the values top, left, bottom, right */
+.navbar {
+  background: #333;
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  position: sticky;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+}
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 3rem;
+  /* position: relative; */
+}
+/* .one {
+  background: blue;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  position: absolute;
+  left: 20px;
+}
+.two {
+  background: green;
+  color: #fff;
+  position: absolute;
+} */
+.special {
+  background: pink;
+  font-size: 1.2rem;
+  color: #333;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+}
+.container {
+  min-height: 100vh;
 }
