@@ -632,7 +632,7 @@ opacity:0 , visibilty:hidden - hides element preserves the space
   clear: both;
 } */
 /* 34_float_column */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -652,9 +652,62 @@ div {
 .three {
   background: blue;
 }
-/* .four {
+.four {
   background: blueviolet;
-} */
+}
 h2 {
   clear: both;
+} */
+/* 35_position static */
+/* div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 3rem;
+  
 }
+.one {
+  background: blue;
+  color: #fff;
+  position: static;
+}
+.two {
+  background: green;
+  color: #fff;
+}
+.special {
+  background: pink;
+  font-size: 1.2rem;
+  color: #333;
+} */
+/* 36_position relative */
+/* position: static - default ,
+always positoned according to the normal flow,
+position:relative - position relative to its normal position.
+top,bottom , left, right */
+/* div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 3rem;
+}
+.one {
+  background: blue;
+  color: #fff;
+  position: relative;
+  top: 100px;
+  bottom: 50px;
+  left: 100px;
+  right: 50px;
+}
+.two {
+  background: green;
+  color: #fff;
+}
+.special {
+  background: pink;
+  font-size: 1.2rem;
+  color: #333;
+} */
+/* 37_position_absolute */
+/* position absolute - relative to the parent with postion:relative.
+position:fixed - relative to the viewport(screen), stays as we are scrolling
+will use other content to fill out the space */
