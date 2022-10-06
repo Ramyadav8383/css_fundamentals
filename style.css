@@ -584,7 +584,7 @@ opacity:0 , visibilty:hidden - hides element preserves the space
 .visibility {
   visibility: hidden;
 } */
-* {
+/* * {
   margin: 0;
 }
 #showcase {
@@ -593,4 +593,68 @@ opacity:0 , visibilty:hidden - hides element preserves the space
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+} */
+
+/* 33_position */
+/* float */
+/* first approach using flex */
+/* .banner {
+  display: flex;
+  align-items: center;
+  border: 5px solid black;
+  padding: 0.5rem;
+  background: linear-gradient(
+    to right,
+    rgba(132, 213, 122, 0.2),
+    rgba(132, 213, 122, 0.6),
+    rgba(132, 213, 122, 0.9)
+  );
+}
+.banner img {
+  width: 200px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+} */
+/* second approach using float property */
+/* .banner {
+  border: 5px solid black;
+  padding: 0.5rem;
+}
+.one {
+  float: left;
+}
+.two {
+  float: right;
+} */
+/* clear property is used for clear the float property from both side */
+/* p {
+  clear: both;
+} */
+/* 34_float_column */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  width: 50%;
+  height: 200px;
+  float: left;
+  float: right;
+}
+.one {
+  background: red;
+}
+.two {
+  background: green;
+}
+.three {
+  background: blue;
+}
+/* .four {
+  background: blueviolet;
+} */
+h2 {
+  clear: both;
 }
