@@ -756,23 +756,23 @@ will use other content to fill out the space */
 /* position sticky */
 /* position:sticky - toggles between relatives and fixed once the position is met in the viewport - then it sticks
 one of the values top, left, bottom, right */
-.navbar {
+/* .navbar {
   background: #333;
   color: #fff;
   font-size: 1.5rem;
   text-transform: capitalize;
-  position: sticky;
-  /* position: fixed; */
-  top: 0;
-  left: 0;
-  /* width: 100%; */
-}
-div {
+  position: sticky; */
+/* position: fixed; */
+/* top: 0;
+  left: 0; */
+/* width: 100%; */
+/* } */
+/* div {
   border: 3px solid red;
   background: yellow;
-  margin-top: 3rem;
-  /* position: relative; */
-}
+  margin-top: 3rem; */
+/* position: relative; */
+/* } */
 /* .one {
   background: blue;
   color: #fff;
@@ -788,14 +788,46 @@ div {
   color: #fff;
   position: absolute;
 } */
-.special {
+/* .special {
   background: pink;
   font-size: 1.2rem;
   color: #333;
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   left: 0;
 }
 .container {
   min-height: 100vh;
+} */
+
+/* 39_media queries */
+/* media queries
+responsive design
+style elements on diffrent screen sizes
+min-width: -- starting from 
+max-width: --- up to mobile first */
+body {
+  background: purple;
+}
+.banner {
+  background: green;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* media queries */
+@media screen and (min-width: 576px) {
+  body {
+    background: rebeccapurple;
+  }
+  .banner {
+    background: yellow;
+  }
+  h1 {
+    font-size: 60px;
+  }
 }
