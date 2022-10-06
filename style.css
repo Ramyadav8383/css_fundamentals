@@ -806,11 +806,19 @@ responsive design
 style elements on diffrent screen sizes
 min-width: -- starting from 
 max-width: --- up to mobile first */
+* {
+  box-sizing: ;
+}
 body {
   background: purple;
 }
 .banner {
-  background: green;
+  background: linear-gradient(
+    to right,
+    rgba(0, 255, 0, 0.9),
+    rgba(rgba(0, 0, 255, 0.7))
+  );
+  height: 50vh;
 }
 h1 {
   text-align: center;
@@ -820,6 +828,7 @@ h1 {
 }
 
 /* media queries */
+/* mobile device */
 @media screen and (min-width: 576px) {
   body {
     background: rebeccapurple;
@@ -829,5 +838,30 @@ h1 {
   }
   h1 {
     font-size: 60px;
+  }
+}
+/* tablet */
+@media screen and (min-width: 769px) and (max-width: 1168px) {
+  body {
+    background: rebeccapurple;
+  }
+  .banner {
+    margin-top: 30px;
+    background: rgb(83, 114, 83);
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 776px) {
+  body {
+    background: rebeccapurple;
+  }
+  .banner {
+    margin-top: 30px;
+    background: green;
+  }
+  h1 {
+    font-size: 50px;
   }
 }
