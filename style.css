@@ -806,8 +806,8 @@ responsive design
 style elements on diffrent screen sizes
 min-width: -- starting from 
 max-width: --- up to mobile first */
-* {
-  box-sizing: ;
+/* * {
+  box-sizing: border-box;
 }
 body {
   background: purple;
@@ -825,11 +825,11 @@ h1 {
   text-decoration: underline;
   color: #fff;
   text-transform: capitalize;
-}
+} */
 
 /* media queries */
 /* mobile device */
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
   body {
     background: rebeccapurple;
   }
@@ -839,9 +839,9 @@ h1 {
   h1 {
     font-size: 60px;
   }
-}
+} */
 /* tablet */
-@media screen and (min-width: 769px) and (max-width: 1168px) {
+/* @media screen and (min-width: 769px) and (max-width: 1168px) {
   body {
     background: rebeccapurple;
   }
@@ -864,4 +864,47 @@ h1 {
   h1 {
     font-size: 50px;
   }
+} */
+
+/* 40_z-index */
+/* z-index - z-axis
+0 - default
+does not work on position:static */
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+.banner {
+  margin: 1rem;
+  width: 80vw;
+  height: 80vh;
+  border: 5px solid green;
+  padding: 1.5rem;
+  position: relative;
+}
+.one {
+  position: absolute;
+  left: 9.3rem;
+  top: 9.4rem;
+  /* z-index: 5; */
+}
+.two {
+  position: absolute;
+  left: 18.6rem;
+  /* z-index: 4; */
+}
+.three {
+  position: absolute;
+  top: 18.6rem;
+  /* z-index: 4; */
+}
+.four {
+  position: absolute;
+  left: 18.6rem;
+  top: 18.6rem;
 }
