@@ -1021,3 +1021,52 @@ div:hover::before {
 } */
 
 /* 43_basic selectors  */
+/* * {
+  color: red;
+} */
+/* id have higher specificity rather than universal selector or class selector */
+/* #heading {
+  font-size: 40px;
+  color: blue;
+  text-transform: uppercase;
+}
+.heading {
+  font-size: 20px;
+  color: aqua;
+  text-transform: capitalize;
+}
+p {
+  letter-spacing: 5px;
+} */
+/* 44_descendent and child selectors */
+/* all h1 elements under in div */
+/* div h1 {
+  color: yellow;
+} */
+/* direct child */
+/* div > h1 {
+  color: green;
+} */
+/* class selctor have more specificity than div elements */
+/* .header h1 {
+  color: purple;
+}
+.header > h1 {
+  color: greenyellow;
+} */
+/* 45_first-line first letter*/
+/* ::first-line ::first-letter */
+p::first-line {
+  color: orangered;
+}
+div::first-line {
+  color: green;
+}
+.para::first-line {
+  color: orange;
+}
+p::first-letter {
+  color: navy;
+  /* background: grey; */
+  font-size: 3rem;
+}
