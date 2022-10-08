@@ -1056,8 +1056,9 @@ p {
 } */
 /* 45_first-line first letter*/
 /* ::first-line ::first-letter */
-p::first-line {
+/* p::first-line {
   color: orangered;
+  font-weight: bold;
 }
 div::first-line {
   color: green;
@@ -1067,6 +1068,55 @@ div::first-line {
 }
 p::first-letter {
   color: navy;
-  /* background: grey; */
-  font-size: 3rem;
+  background: grey;
+  font-size: 150%;
+} */
+/* 46_hover_pesudo class selectors
+:hover */
+/* div:hover {
+  color: green;
 }
+.header:hover {
+  color: white;
+  background: blue;
+  word-spacing: 3px;
+}
+a:hover {
+  text-decoration: none;
+  background: pink;
+  font-size: 1.5rem;
+} */
+/* 47_links_pseudo class selectors */
+/* :link - unvisited links with href
+:visited - visited links
+:hover - hover
+:activate - as the user clicks
+a - all links */
+/* a {
+  background: red;
+  display: block;
+  margin: 1rem;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: purple;
+}
+a:active {
+  color:blue;
+ } */
+/* 48_root_pseudo class seolectors */
+/* :root root elements of the documents, higher specificity 
+html elements
+general styles
+css varables */
+/* :root {
+  font-size: 10px;
+}
+.absolute {
+  font-size: 24px;
+}
+.relative {
+  font-size: 1.5rem;
+} */
