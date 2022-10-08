@@ -1,0 +1,18 @@
+/* 01_transform property */
+/* transform:translate(), sacle(), rotate(),skew() */
+div {
+  width: 7rem;
+  height: 7rem;
+  display: inline-block;
+}
+.one {
+  background: green;
+  /* transform: translateX(5rem);
+  transform: translateY(5rem); */
+}
+.two {
+  background: orange;
+}
+.three {
+  background: pink;
+}
