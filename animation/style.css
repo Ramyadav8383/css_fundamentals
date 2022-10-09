@@ -141,3 +141,64 @@ linear = same speed start to end
 ease-in = slow start
 ease-out = slow end
 ease-in-out = slow start, fast ,slow end*/
+div {
+  width: 8rem;
+  height: 8rem;
+  display: inline-block;
+}
+/* default transition timming function */
+.default {
+  background: green;
+  transition: all 1s;
+}
+.default:hover {
+  background: greenyellow;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+/* linear */
+.linear {
+  background: purple;
+  transition: all 1s linear 1s;
+}
+.linear:hover {
+  background: orangered;
+  border-radius: 50%;
+}
+/* ease */
+.ease {
+  background: grey;
+  transition: all 1s ease;
+}
+.ease:hover {
+  background: pink;
+  transform: translateX(5rem);
+}
+/* ease-in */
+.ease-in {
+  background: rgb(228, 84, 84);
+  transition: all 1s ease-in;
+}
+.ease-in:hover {
+  background: rgb(65, 33, 38);
+  transform: translateX(5rem);
+}
+/* ease-out */
+.ease-out {
+  background: rgb(38, 133, 78);
+  transition: all 1s ease-in;
+}
+.ease-out:hover {
+  background: rgb(89, 43, 175);
+  transform: translateX(5rem);
+}
+/* ease-in-out */
+
+.ease-in-out {
+  background: rgb(139, 26, 64);
+  transition: all 1s ease-in;
+}
+.ease-in-out:hover {
+  background: rgb(123, 107, 153);
+  transform: translateX(5rem);
+}
