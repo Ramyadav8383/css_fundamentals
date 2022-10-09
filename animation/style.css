@@ -78,18 +78,66 @@
   transform: rotateY(10deg);
 } */
 /* 05_transform skew property */
-div {
+/* div {
   width: 8rem;
   height: 8rem;
   display: inline-block;
 }
 .one {
   background: green;
+  transform: skew(40deg);
+  transform: skew(40deg, 20deg);
 }
 .two {
   background: orange;
+  transform: skewX(40deg);
 }
 .three {
   background: orangered;
-  transform: rotateX(10deg);
+  transform: skewY(40deg);
+} */
+
+/* 06_transition property */
+/* transition: change over time
+transition-property:
+transition-duration: */
+div {
+  width: 8rem;
+  height: 8rem;
+  display: inline-block;
+  /* margin: 2rem auto; */
 }
+/* div:hover {
+  background: coral;
+} */
+.one {
+  background: red;
+}
+.two {
+  background: green;
+  transition: all;
+}
+.three {
+  background: blue;
+  /* transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.5s; */
+  cursor: pointer;
+  /* shorthand for transition  transition- property, transition-duration, transition-timing-function, transition-delay*/
+  transition: all 1s ease-in-out 0.5s;
+}
+.three:hover {
+  background: coral;
+  transform: scale(1.2);
+  border-radius: 50%;
+}
+/* 07_transition timming function */
+/* transition timming function
+transition: all 3s here 5s 
+ease = default
+ease = slow start , fast , slow end 
+linear = same speed start to end
+ease-in = slow start
+ease-out = slow end
+ease-in-out = slow start, fast ,slow end*/
