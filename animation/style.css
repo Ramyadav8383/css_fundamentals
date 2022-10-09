@@ -1,18 +1,95 @@
 /* 01_transform property */
 /* transform:translate(), sacle(), rotate(),skew() */
-div {
+/* div {
   width: 7rem;
   height: 7rem;
   display: inline-block;
 }
 .one {
   background: green;
-  /* transform: translateX(5rem);
-  transform: translateY(5rem); */
+
+  transform: translateX(1.5rem); */
+/* percent value in translate property follows the actual width and height of div element */
+/* transform: translateX(50%); */
+
+/* transform: translateY(5rem); */
+/* } */
+/* .two {
+  background: orange;
+  transform: translateY(5rem);
+}
+.three {
+  background: pink;
+  transform: translate(200px, 300px);
+} */
+/* 02_translate example */
+/* .hero {
+  min-height: 100vh;
+  position: relative;
+}
+.hero-center {
+  border: 2px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 300px;
+} */
+/* 03_translate scale property */
+/* div {
+  width: 8rem;
+  height: 8rem;
+  display: inline-block;
+}
+.one {
+  background: green;
+  z-index: 2;
+  transform: scale(2);
+}
+.two {
+  background: orange;
+  transform: scaleX(2);
+}
+.three {
+  background: orangered;
+  transform: scaleY(2);
+}
+.four {
+  background: blue;
+  transform: scaleZ(5);
+} */
+/* 04_transform rotate property */
+/* div {
+  width: 8rem;
+  height: 8rem;
+  display: inline-block;
+}
+.one {
+  background: green;
+  transform: rotate(20deg);
+}
+.two {
+  background: orange;
+  transform: rotate(380deg);
+}
+.three {
+  background: orangered;
+  transform: rotateX(10deg);
+  transform: rotateY(10deg);
+} */
+/* 05_transform skew property */
+div {
+  width: 8rem;
+  height: 8rem;
+  display: inline-block;
+}
+.one {
+  background: green;
 }
 .two {
   background: orange;
 }
 .three {
-  background: pink;
+  background: orangered;
+  transform: rotateX(10deg);
 }
