@@ -150,3 +150,32 @@ nav {
 /* 06_is_selector */
 /* :is()
 The :is() Css pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list.*/
+/* h2:hover {
+  color: red;
+} */
+/* nav h2:hover,
+header h2:hover,
+section h2:hover {
+  color: red;
+} */
+/* :is(nav, header, section) h2:hover {
+  color: blue;
+} */
+/*07_ is_not selector */
+/* 
+:not()
+
+the :not() Css pseudo-class represents elements that do not match a list of selectors, since it prevents specific items from being slected,*/
+/* .special :not(h1) {
+  color: red;
+} */
+/* 08_hsl value */
+/* HSL stands for hue, saturation and lightness.
+Hsl Colors values are specified with:
+hsl(hue, stauration, lightness).
+
+hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue.
+
+saturation is a percentage value; 0% means a shade of grey and 100% is the full color.
+
+lightness is also a percentage; 0% is black, 100% is white.*/
