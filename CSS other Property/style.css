@@ -127,14 +127,14 @@ nav {
 } */
 /*05_object-fit */
 /* object-fit: Cover , contain , fill, none, scale-down */
-img {
+/* img {
   width: 100%;
   display: block;
   height: 300px;
   object-fit: cover;
-  /* object-fit: contain; */
-  /* object-fit: fill; */
-  /* object-fit: scale-down; */
+  object-fit: contain;
+  object-fit: fill;
+  object-fit: scale-down;
 }
 .one {
   float: left;
@@ -145,4 +145,8 @@ img {
   float: right;
   width: 45%;
   margin-right: 5%;
-}
+} */
+/* emmet snippets */
+/* 06_is_selector */
+/* :is()
+The :is() Css pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list.*/
