@@ -1,3 +1,4 @@
+/* 01_variables  */
 /* CSS VARIABLES AKA CUSTOM PROPERTIES
 allows to store values in one place and re-use it later
 --varName:value
@@ -7,7 +8,7 @@ scope
 element ===local 
 any property(we can create vaariables of any properties*/
 /* global variables */
-:root {
+/* :root {
   --primary-color: #00ff37;
   --secondary-color: red;
   --mainTransition: all 2s linear;
@@ -32,9 +33,9 @@ p {
 }
 p:hover {
   color: var(--secondary-color);
-}
+} */
 /* local variables */
-div {
+/* div {
   --primary-red: red;
 }
 .main {
@@ -42,4 +43,75 @@ div {
 }
 h3 {
   color: var(--primary-red);
+} */
+/* fontwasome_icons */
+/* svg {
+  width: 50px;
+  height: 50px;
+  color: purple;
+  background: orange;
+  padding: 1rem;
+  border: 3px solid black;
+  border-radius: 10%;
+  transition: all 2s ease-in-out;
 }
+svg:hover {
+  transform: translateX(400px);
+} */
+/* 02_box_shadow and text shadow property */
+/* text shadow */
+/* h1 { */
+/*text-shadow: offset-x, Offset-y  blur-radius color;  */
+/* text-shadow: 10px 5px 10px rgb(55, 0, 128);
+} */
+/* box shadow */
+/* box-shadow:offset-x,
+offset-y Blur-radius,
+spread-radius,
+color */
+/* .box {
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 2px 4px 10px, -2px -4px 10px rgb(58, 53, 53);
+  border-radius: 10px;
+  text-align: center;
+  transition: all 2s ease-in-out;
+}
+.box:hover {
+  transform: scale(1.2);
+  transform: skewX(20deg);
+  transform: translateY(2rem);
+}
+button {
+  padding: 0.75rem 3rem;
+} */
+
+/* 03_browser prefixes */
+/* caniuse.com */
+/* shouldiprefix.com */
+/* h1 {
+  text-shadow: 10px 5px 10px rgb(55, 0, 128);
+} */
+/* box shadow */
+/* .box {
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 2px 4px 10px, -2px -4px 10px rgb(58, 53, 53);
+  border-radius: 10px;
+  text-align: center;
+  transition: all 2s ease-in-out;
+}
+.box:hover {
+  transform: scale(1.2);
+  transform: skewX(20deg);
+  transform: translateY(2rem);
+}
+button {
+  padding: 0.75rem 3rem;
+} */
+/* 04_symantics tags */
+/* symantics tags are used rather than using div elements these tags are help to maintain a squence or structure of webpage */
