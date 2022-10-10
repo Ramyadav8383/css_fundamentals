@@ -101,16 +101,16 @@
 /* transition: change over time
 transition-property:
 transition-duration: */
-div {
+/* div {
   width: 8rem;
   height: 8rem;
   display: inline-block;
-  /* margin: 2rem auto; */
-}
+  margin: 2rem auto;
+} */
 /* div:hover {
   background: coral;
 } */
-.one {
+/* .one {
   background: red;
 }
 .two {
@@ -118,20 +118,20 @@ div {
   transition: all;
 }
 .three {
-  background: blue;
-  /* transition-property: background;
+  background: blue; */
+/* transition-property: background;
   transition-duration: 1s;
   transition-timing-function: ease-in-out;
   transition-delay: 0.5s; */
-  cursor: pointer;
-  /* shorthand for transition  transition- property, transition-duration, transition-timing-function, transition-delay*/
-  transition: all 1s ease-in-out 0.5s;
-}
-.three:hover {
+/* cursor: pointer; */
+/* shorthand for transition  transition- property, transition-duration, transition-timing-function, transition-delay*/
+/* transition: all 1s ease-in-out 0.5s; */
+/* } */
+/* .three:hover {
   background: coral;
   transform: scale(1.2);
   border-radius: 50%;
-}
+} */
 /* 07_transition timming function */
 /* transition timming function
 transition: all 3s here 5s 
@@ -141,13 +141,40 @@ linear = same speed start to end
 ease-in = slow start
 ease-out = slow end
 ease-in-out = slow start, fast ,slow end*/
-div {
-  width: 8rem;
-  height: 8rem;
-  display: inline-block;
+/* div {
+  width: 5rem;
+  height: 5rem;
+  background: blueviolet;
+  margin: 1rem;
+  color: #fff;
+  transition: all 1s;
 }
+div:hover {
+  transform: translateX(2rem);
+} */
+/* ease */
+/* .ease {
+  transition-timing-function: ease;
+} */
+/* linear*/
+/* .linear {
+  transition-timing-function: linear;
+} */
+/* ease-in */
+/* .ease-in {
+  transition-timing-function: ease-in;
+} */
+/* ease-out */
+/* .ease-out {
+  transition-timing-function: ease-out;
+} */
+/* ease-in-out */
+/* .ease-in-out {
+  transition-timing-function: ease-in-out;
+} */
 /* default transition timming function */
-.default {
+/* long cut of transition timming function */
+/* .default {
   background: green;
   transition: all 1s;
 }
@@ -155,50 +182,130 @@ div {
   background: greenyellow;
   border: 2px solid black;
   border-radius: 10px;
-}
+} */
 /* linear */
-.linear {
+/* .linear {
   background: purple;
   transition: all 1s linear 1s;
 }
 .linear:hover {
   background: orangered;
   border-radius: 50%;
-}
+} */
 /* ease */
-.ease {
+/* .ease {
   background: grey;
   transition: all 1s ease;
 }
 .ease:hover {
   background: pink;
   transform: translateX(5rem);
-}
+} */
 /* ease-in */
-.ease-in {
+/* .ease-in {
   background: rgb(228, 84, 84);
   transition: all 1s ease-in;
 }
 .ease-in:hover {
   background: rgb(65, 33, 38);
   transform: translateX(5rem);
-}
+} */
 /* ease-out */
-.ease-out {
+/* .ease-out {
   background: rgb(38, 133, 78);
   transition: all 1s ease-in;
 }
 .ease-out:hover {
   background: rgb(89, 43, 175);
   transform: translateX(5rem);
-}
+} */
 /* ease-in-out */
-
-.ease-in-out {
+/* .ease-in-out {
   background: rgb(139, 26, 64);
   transition: all 1s ease-in;
 }
 .ease-in-out:hover {
   background: rgb(123, 107, 153);
   transform: translateX(5rem);
+} */
+/* 08_animation property */
+/* transition 0 = 100%
+from start state to end state
+animation: 0 1% 2% ........100%
+multiple states */
+/* div {
+  width: 200px;
+  height: 100px;
+  color: #fff;
+  margin: 0.5rem;
+} */
+/* transition */
+/* .transition {
+  background: greenyellow;
+  transition: all 2s linear;
+}
+.transition:hover {
+  background: yellowgreen;
+  transform: translateX(100px);
+} */
+/* animation */
+/* .animation {
+  background: goldenrod; */
+/* animation-name: move;
+  animation-duration: 2s;
+  animation-iteration-count: 2; */
+/* animation: animate 5s 3 ease-in-out; */
+/* animation: animate 5s infinite ease-in-out; */
+/* animation-iteration: infinite */
+/* } */
+/* @keyframes animate {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+    background: yellow;
+  }
+  75% {
+    transform: translateX(-200px);
+    background: grey;
+  }
+  100% {
+    transform: translateX(20px);
+    background: blue;
+  }
+} */
+/* 09_animation fill mode */
+/* animation-fill-mode: what values are applied by the animation outside the time it is executing */
+div {
+  width: 100px;
+  height: 100px;
+  color: #fff;
+  opacity: 0;
+}
+.animation {
+  background: #542654;
+  animation: animate 5s 2 linear 1s;
+  /* animation-fill-mode: backwards; */
+  animation-fill-mode: forwards;
+}
+@keyframes animate {
+  0% {
+    opacity: 0.1;
+  }
+  25% {
+    transform: translateX(200px);
+    opacity: 0.25;
+  }
+  50% {
+    transform: translateX(-200px);
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    transform: translateX(20px);
+    opacity: 1;
+  }
 }
