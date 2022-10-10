@@ -115,3 +115,34 @@ button {
 } */
 /* 04_symantics tags */
 /* symantics tags are used rather than using div elements these tags are help to maintain a squence or structure of webpage */
+/* w3 school resources for symantics tags learn in details .semantic elements = elements with a meaning it describes its meaning both browser and developer
+https://www.w3schools.com/html/html5_semantic_elements.asp */
+/* .navbar {
+  background: red;
+  font-size: 2rem;
+}
+nav {
+  background: purple;
+  font-size: 2rem;
+} */
+/*05_object-fit */
+/* object-fit: Cover , contain , fill, none, scale-down */
+img {
+  width: 100%;
+  display: block;
+  height: 300px;
+  object-fit: cover;
+  /* object-fit: contain; */
+  /* object-fit: fill; */
+  /* object-fit: scale-down; */
+}
+.one {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+.two {
+  float: right;
+  width: 45%;
+  margin-right: 5%;
+}
