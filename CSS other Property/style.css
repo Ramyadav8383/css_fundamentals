@@ -179,3 +179,30 @@ hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is
 saturation is a percentage value; 0% means a shade of grey and 100% is the full color.
 
 lightness is also a percentage; 0% is black, 100% is white.*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid orange;
+  margin: 1rem;
+}
+.box-1 {
+  background: hsl(240, 100%, 50%);
+}
+.box-2 {
+  background: hsl(120, 100%, 50%);
+}
+.box-3 {
+  background: hsl(0, 50%, 50%);
+}
+.box-4 {
+  background: hsl(180, 100%, 50%);
+}
+.box-5 {
+  background: hsl(315, 60%, 52%);
+}
